@@ -43,7 +43,11 @@ The **logout** code simply unsets the `$scope.loggedIn` variable:
   };
 ```
 
+Putting this simple functionality together in using the AngularJS framework (with lumx extensions) it is possible to create a simple demo:
+
+  [Live Demo](http://melvincarvalho.github.io/helloworld/)
+
 ## See Also
 
 * [Source Code](https://github.com/melvincarvalho/helloworld)
-* [Demo](http://melvincarvalho.github.io/helloworld/)
+* [Live Demo](http://melvincarvalho.github.io/helloworld/)
