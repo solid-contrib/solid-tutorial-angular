@@ -5,7 +5,6 @@ Hello world is a simple app that allows decentralized login and logout using the
 The **login** code is below:
 
 ```javascript
-
     $http({
       method: 'HEAD',
       url: AUTHENDPOINT,
