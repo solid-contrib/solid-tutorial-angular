@@ -34,6 +34,14 @@ A HEAD request to any WebID enabled server will return a User: header telling wh
 
 The withCredentials flag is set to true in order to prevent a CORS error.
 
+The **logout** code simply unsets the `$scope.loggedIn` variable:
+
+```javascript
+  $scope.logout = function() {
+    LxNotificationService.success('Logout Successful!');
+    $scope.loggedIn = false;
+  };
+```
 
 ## See Also
 
