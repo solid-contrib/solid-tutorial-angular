@@ -6,7 +6,7 @@ In this tutorial we will cover how to build a simple hello world app using the S
 
 * How to create your first SoLiD app
 * How to use decentralized login and logout
-* How to to delegate HEAD requests to get a User: header
+* How to to delegate HEAD requests to identify using the [User](https://www.w3.org/community/rww/wiki/User_Header) header
 * How to use notifcations using lumx and AngularJS
 
 ## The App
@@ -75,3 +75,4 @@ In this chapter we have shown how to identify and verify a user using delegated 
 * [WebID](http://webid.info/)
 * [AngularJS](https://angularjs.org/)
 * [Lumx](http://ui.lumapps.com/)
+* [User Header](https://www.w3.org/community/rww/wiki/User_Header)
