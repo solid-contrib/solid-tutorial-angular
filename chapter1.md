@@ -49,13 +49,13 @@ The **logout** code simply unsets the `$scope.loggedIn` variable:
   };
 ```
 
-Putting this simple functionality together in using the AngularJS framework (with lumx extensions) it is possible to create a simple demo:
+Putting this simple functionality together in using the [AngularJS](https://angularjs.org/) framework (with [lumx](http://ui.lumapps.com/) extensions) it is possible to create a simple demo:
 
   [Live Demo](http://melvincarvalho.github.io/helloworld/)
   
 ## Summary
 
-In this chapter we have shown how to identify and verify a user using delegated login and WebID.  We have packaged the code into an [angularJS](https://angularjs.org/) app and presented a simple demo.  In the next chapter we will show how to save data to your Personal Online Data Store (Pod).
+In this chapter we have shown how to identify and verify a user using delegated login and WebID.  We have packaged the code into an [AngularJS](https://angularjs.org/) app and presented a simple demo.  In the next chapter we will show how to save data to your Personal Online Data Store (Pod).
 
 ## See Also
 
@@ -63,3 +63,4 @@ In this chapter we have shown how to identify and verify a user using delegated 
 * [Live Demo](http://melvincarvalho.github.io/helloworld/)
 * [WebID](http://webid.info/)
 * [AngularJS](https://angularjs.org/)
+* [Lumx](http://ui.lumapps.com/)
