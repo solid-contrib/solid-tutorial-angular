@@ -1,5 +1,17 @@
 # Chapter 1 - Hello World
 
+## Introduction
+
+In this tutorial we will cover how to build a simple hello world app using the SoLiD framework.  What you will learn may include:
+
+* How to create an app
+* How to use decentralized login
+* How to to delegate HEAD requests to get a User: header
+* How to logout
+* How to use notifcations using lumx and AngularJS
+
+## The App
+
 Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.
 
 The **login** code is below:
