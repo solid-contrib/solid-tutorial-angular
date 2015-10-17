@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Chapter 1 - Hello World](chapter1.md)
-* Appendix A - SoLiD Spec
+* [Appendix A - SoLiD Spec](solid_spec.md)
 
