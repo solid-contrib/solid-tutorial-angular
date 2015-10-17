@@ -34,6 +34,10 @@ A HEAD request to any WebID enabled server will return a User: header telling wh
 
 The withCredentials flag is set to true in order to prevent a CORS error.
 
+The AUTHENDPOINT in our example is set to : https://databox.me/
+
+```javascript     AUTHENDPOINT = "https://databox.me/";```
+
 The **logout** code simply unsets the `$scope.loggedIn` variable:
 
 ```javascript
