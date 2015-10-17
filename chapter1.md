@@ -15,7 +15,7 @@ What you will learn:
 
 SoLiD apps typically run completely client side and do not require a server, except to identify a user, or store data.
 
-Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.  The remote server will perform the authentication, typically using TLS, but any authentication is allowed provided that the User header is sent back.
+Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.  The remote server will perform the authentication, typically using TLS, but any authentication is allowed provided that the [User](https://www.w3.org/community/rww/wiki/User_Header) header is sent back.
 
 First, we will look at how to login using JavaScript.  The **login** code is below:
 
