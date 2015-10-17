@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this tutorial we will cover how to build a simple hello world app using the SoLiD framework.  
+In this tutorial we will cover how to build a simple client side hello world app using the SoLiD framework.  
 
 What you will learn:
 
