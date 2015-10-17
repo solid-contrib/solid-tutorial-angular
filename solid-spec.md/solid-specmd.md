@@ -1,2 +1,0 @@
-# Appendix A - SoLiD Spec
-
