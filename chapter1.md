@@ -37,5 +37,5 @@ The withCredentials flag is set to true in order to prevent a CORS error.
 
 ## See Also
 
-[Source Code](https://github.com/melvincarvalho/helloworld)
-[Demo](http://melvincarvalho.github.io/helloworld/)
+* [Source Code](https://github.com/melvincarvalho/helloworld)
+* [Demo](http://melvincarvalho.github.io/helloworld/)
