@@ -11,7 +11,7 @@ In this tutorial we will cover how to build a simple hello world app using the S
 
 ## The App
 
-Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.  The app itself runs completely client side and does not require a server, except to identify a user.
+Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.  The app itself runs completely client side and does not require a server, except to identify a user.  The remote server will perform the authentication, typically using TLS, but any authentication is allowed provided that the User header is sent back.
 
 First, we will look at how to login using JavaScript.  The **login** code is below:
 
