@@ -6,14 +6,16 @@ In this tutorial we will cover how to build a simple hello world app using the S
 
 What you will learn:
 
-* How to create your first SoLiD app
+* How to create your first client side SoLiD app
 * How to use decentralized login and logout
 * How to to delegate HEAD requests to identify using the [User](https://www.w3.org/community/rww/wiki/User_Header) header
 * How to use notifcations using lumx and AngularJS
 
 ## The App
 
-Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.  The app itself runs completely client side and does not require a server, except to identify a user.  The remote server will perform the authentication, typically using TLS, but any authentication is allowed provided that the User header is sent back.
+SoLiD apps typically run completely client side and do not require a server, except to identify a user, or store data.
+
+Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.  The remote server will perform the authentication, typically using TLS, but any authentication is allowed provided that the User header is sent back.
 
 First, we will look at how to login using JavaScript.  The **login** code is below:
 
