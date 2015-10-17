@@ -1,6 +1,6 @@
 # Chapter 1 - Hello World
 
-Hello world is a simple app that allows decentralized login and logout using the WebID Identity system.
+Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.
 
 The **login** code is below:
 
@@ -61,3 +61,4 @@ In this chapter we have shown how to identify and verify a user using delegated 
 
 * [Source Code](https://github.com/melvincarvalho/helloworld)
 * [Live Demo](http://melvincarvalho.github.io/helloworld/)
+* [WebID](http://webid.info/)
