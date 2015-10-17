@@ -55,10 +55,11 @@ Putting this simple functionality together in using the AngularJS framework (wit
   
 ## Summary
 
-In this chapter we have shown how to identify and verify a user using delegated login and WebID.  We have packaged the code into an angularJS app and presented a simple demo.  In the next chapter we will show how to save data to your Personal Online Data Store (Pod).
+In this chapter we have shown how to identify and verify a user using delegated login and WebID.  We have packaged the code into an [angularJS](https://angularjs.org/) app and presented a simple demo.  In the next chapter we will show how to save data to your Personal Online Data Store (Pod).
 
 ## See Also
 
 * [Source Code](https://github.com/melvincarvalho/helloworld)
 * [Live Demo](http://melvincarvalho.github.io/helloworld/)
 * [WebID](http://webid.info/)
+* [AngularJS](https://angularjs.org/)
