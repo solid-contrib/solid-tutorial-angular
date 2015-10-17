@@ -33,3 +33,9 @@ The system used is a delegated authentication.  This is because a server is requ
 A HEAD request to any WebID enabled server will return a User: header telling who is using the app.  That user can then be used to cusomize the app.  In our case we simply set `$scope.user`.
 
 The withCredentials flag is set to true in order to prevent a CORS error.
+
+
+## See Also
+
+[Source Code](https://github.com/melvincarvalho/helloworld)
+[Demo](http://melvincarvalho.github.io/helloworld/)
