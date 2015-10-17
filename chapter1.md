@@ -4,7 +4,7 @@
 
 In this tutorial we will cover how to build a simple client side hello world app using the SoLiD framework.  
 
-What you will learn:
+*What you will learn*
 
 * How to create your first client side SoLiD app
 * How to use decentralized login and logout
