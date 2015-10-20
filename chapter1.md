@@ -25,19 +25,18 @@ First, we will look at how to login using JavaScript.  The **login** code is bel
       url: AUTHENDPOINT,
       withCredentials: true
     }).success(function(data, status, headers) {
-      var user = headers('User');
-      if (user && user.length > 0 && user.slice(0,4) == 'http') {
-        LxNotificationService.success('Login Successful!');
+      var header = 'User';
+      var user = headers(header);
+      if (user && user.length > 0 && user.slice(0,header.length) == 'http') {
+        $scope.notify('Login Successful!');
         $scope.loggedIn = true;
         $scope.user = user;
       } else {
-        LxNotificationService.error('WebID-TLS authentication failed.');
-        console.log('WebID-TLS authentication failed.');
+        $scope.notify('WebID-TLS authentication failed.', 'error');
       }
       $scope.loginTLSButtonText = 'Login';
     }).error(function(data, status, headers) {
-      LxNotificationService.error('Could not connect to auth server: HTTP '+status);
-      console.log('Could not connect to auth server: HTTP '+status);
+      $scope.notify('Could not connect to auth server: HTTP '+status);
       $scope.loginTLSButtonText = 'Login';
     });
 
