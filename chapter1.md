@@ -58,8 +58,8 @@ The **logout** code simply unsets the `$scope.loggedIn` variable:
 
 ```javascript
   $scope.logout = function() {
-    LxNotificationService.success('Logout Successful!');
-    $scope.loggedIn = false;
+    $scope.init();
+    $scope.notify('Logout Successful!');
   };
 ```
 
