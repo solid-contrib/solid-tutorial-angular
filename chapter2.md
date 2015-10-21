@@ -14,7 +14,9 @@ In this tutorial we will cover how to load and save data to a Personal Online Da
 
 ## The App
 
-Coming soon ...
+This app builds on the previous hello world app, which enables login and logout by introducing Personal Data Stores (Pods) and allowing read and write to those stores using [rdflib.js](https://github.com/linkeddata/rdflib.js/).  The app operates as a simple web clipboard that lets you save text to a location and retrieve it later.
+
+More coming soon ...
 
 ## See Also
 
