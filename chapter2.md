@@ -46,13 +46,17 @@ Now we can fetch the data:
 
 ```javascript
     f.nowOrWhenFetched(storageURI, undefined, function(ok, body) {
-      var clip = g.statementsMatching(undefined, URN('clipboard'));
-      var clipboard = clip[0].object.value;
+      var clipboard = g.any($rdf.sym(storageURI + '#this'), URN('clipboard'));
       $scope.clipboard = clipboard;
       $scope.storageURI = storageURI;
     });
 ```
 
+For this app, the document is assumed to contain data of the form
+
+```turtle
+    <#this> <urn:tmp:clipboard> "data" .
+```
 
 More coming soon ...
 
