@@ -75,7 +75,7 @@ The `$scope.notify` function returns a message to the user to tell them they hav
   
 ## Summary
 
-In this chapter we have shown how to identify and verify a user using delegated login and WebID.  We have packaged the code into an [AngularJS](https://angularjs.org/) app and presented a simple demo.  In the next chapter we will show how to save data to your Personal Online Data Store (Pod).
+In this chapter we have shown how to identify and verify a user using delegated login and WebID.  We have packaged the code into an [AngularJS](https://angularjs.org/) app and presented a simple demo.  In the next chapter we will show how to save data to your Personal Online Datastore (Pod).
 
 ## See Also
 
