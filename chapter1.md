@@ -56,7 +56,7 @@ The AUTHENDPOINT in our example is set to : https://databox.me/
 ```
 The withCredentials flag is set to true in order to prevent a CORS error.
 
-A HEAD request to any WebID enabled server will return a User: header telling who is using the app.  That user can then be used to cusomize the app.  In our case we simply set `$scope.user`.
+A HEAD request to any WebID enabled server will return a User: header telling who is using the app.  That user can then be used to cusomize the app.  In our case we simply set `$scope.user`.  This is enough to login to our simple app, and completes the functionality.
 
 The **logout** code simply unsets the `$scope.loggedIn` variable:
 
