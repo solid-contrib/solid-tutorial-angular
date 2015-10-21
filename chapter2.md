@@ -44,7 +44,7 @@ Before we can do this we must determine the location from the query string or fr
 
 For this app, the document is assumed to contain data of the form
 
-```turtle
+```html
     <#this> <urn:tmp:clipboard> "data" .
 ```
 
