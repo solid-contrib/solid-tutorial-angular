@@ -1,6 +1,6 @@
 ![](https://avatars3.githubusercontent.com/u/14262490?v=3&s=200)
 
-SoLiD Tutorials
+Solid Tutorials
 =======
 
 This book is a set of tutorials for the SoLiD platform.
