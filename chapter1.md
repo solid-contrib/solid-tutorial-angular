@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this tutorial we will cover how to build a simple client side hello world app using the SoLiD framework.  
+In this tutorial we will cover how to build a simple client side hello world app using the [Solid](https://github.com/solid) framework.  
 
 *What you will learn*
 
@@ -13,7 +13,7 @@ In this tutorial we will cover how to build a simple client side hello world app
 
 ## The App
 
-SoLiD apps typically run completely client side and do not require a server, except to identify a user, or store data.
+[Solid](https://github.com/solid) apps typically run completely client side and do not require a server, except to identify a user, or store data.
 
 This app is based on [AngularJS](https://angularjs.org/).  Setup and scaffolding of the app is out of scope for this book.  But there are many [tutorials](https://docs.angularjs.org/misc/started) online that show you how to get started.  The code is also available for download in the footnotes.
 
@@ -81,6 +81,7 @@ In this chapter we have shown how to identify and verify a user using delegated 
 
 * [Source Code](https://github.com/melvincarvalho/helloworld)
 * [Live Demo](http://melvincarvalho.github.io/helloworld/)
+* [Solid](https://github.com/solid)
 * [WebID](http://webid.info/)
 * [AngularJS](https://angularjs.org/)
 * [Lumx](http://ui.lumapps.com/)
