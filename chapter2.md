@@ -48,7 +48,7 @@ For this app, the document is assumed to contain data of the form
     <#this> <urn:tmp:clipboard> "data" .
 ```
 
-The data above uses the turtle notation.
+The data above uses the turtle notation.  The `#this` subject is used to distinguish between document and data, and is similar to the 'this' keyword in JavaScript.
 
 Now we can fetch the data:
 
