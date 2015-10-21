@@ -19,7 +19,7 @@ Hello world is a simple app that allows decentralized login and logout using the
 
 The set up of a an [AngularJS](https://angularjs.org/) app is out of scope for this book.  But there are many [tutorials](https://docs.angularjs.org/misc/started) online that show you how to get started.  The code is also available for download in the footnotes.
 
-First, we will look at how to use decentralized login using JavaScript.  The **login** code is below:
+First, we will look at how to use decentralized login using JavaScript.  Using [WebID](http://webid.info/) it is possible to login using an HTTP URI that denotes you, and that can also be dereferenced to find out more about you.  In this app, we will simply get the URI of the user and display it on screen.  The **login** code is below:
 
 ```javascript
     $http({
