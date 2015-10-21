@@ -11,6 +11,8 @@ In this tutorial we will cover how to load and save data to a Personal Online Da
 * How to write data to a Pod
 * How to change the location of the URL you are using
 * How to change query string to allow bookmarking
+* How to use the `#this` pattern
+* How to use the urn:tmp: pattern
 
 ## The App
 
