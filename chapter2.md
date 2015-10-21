@@ -123,7 +123,7 @@ A typical location could be
     <storage>/Private/.clip/clip1
 ```
 
-## SUmmary
+## Summary
 
 In this tutorial we learnt how to set up [rdflib.js](https://github.com/linkeddata/rdflib.js/) in order to read and write structured data to a personal data server.  We looked at patterns for naming and functions to read, write, and allow bookmarking.  In the next tutorial we will look at how to embed media in a webpage.
 
