@@ -26,8 +26,9 @@ First, we will look at how to login using JavaScript.  The **login** code is bel
       withCredentials: true
     }).success(function(data, status, headers) {
       var header = 'User';
+      var scheme = 'http';
       var user = headers(header);
-      if (user && user.length > 0 && user.slice(0,header.length) == 'http') {
+      if (user && user.length > 0 && user.slice(0,scheme.length) === scheme) {
         $scope.notify('Login Successful!');
         $scope.loggedIn = true;
         $scope.user = user;
@@ -39,6 +40,7 @@ First, we will look at how to login using JavaScript.  The **login** code is bel
       $scope.notify('Could not connect to auth server: HTTP '+status);
       $scope.loginTLSButtonText = 'Login';
     });
+
 
   ```
   
