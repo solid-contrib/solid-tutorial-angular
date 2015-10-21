@@ -60,6 +60,7 @@ Now we can fetch the data:
     });
 ```
 
+The `nowOrWhenFetched` will call a callback either if the document is loaded in the graph, or once it is fetched from the web.  The `$rdf.sym` function simply changes a string into a URI by placing angle brackets around it.  We use the function `g.any` to get the object of the namespace TMP of value 'clipboard'
 
 More coming soon ...
 
