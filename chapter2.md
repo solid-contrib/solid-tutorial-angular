@@ -14,7 +14,7 @@ In this tutorial we will cover how to load and save data to a Personal Online Da
 
 ## The App
 
-Coming soon...
+Coming soon ...
 
 ## See Also
 
