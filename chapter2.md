@@ -84,6 +84,14 @@ To save the clipboard we issue a PUT request to the server.
       $scope.notify('could not save clipboard', 'error');
     });
 ```
+The line
+
+
+```javascript
+    $location.search('storageURI', $scope.storageURI);
+```
+
+Changes the query string to the storage URI so that the clipboard can be bookmarked.
 
 
 More coming soon ...
