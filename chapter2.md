@@ -48,7 +48,6 @@ Now we can fetch the data:
     f.nowOrWhenFetched(storageURI, undefined, function(ok, body) {
       var clip = g.statementsMatching(undefined, URN('clipboard'));
       var clipboard = clip[0].object.value;
-      console.log(clipboard);
       $scope.clipboard = clipboard;
       $scope.storageURI = storageURI;
     });
