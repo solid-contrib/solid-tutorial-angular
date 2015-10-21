@@ -64,6 +64,28 @@ The `nowOrWhenFetched` will call a callback either if the document is loaded in 
 
 Once we have fetched this data we can set it to the screen, and also set the storageURI which has come back successfully.
 
+To save the clipboard we issue a PUT request to the server. 
+
+```javascript
+    $http({
+        method: 'PUT',
+        url: $scope.storageURI,
+        withCredentials: true,
+        headers: {
+            "Content-Type": "text/turtle"
+        },
+        data: '<#this> <urn:tmp:clipboard> """' + _clipboard + '""" .',
+    }).
+    success(function(data, status, headers) {
+      $scope.notify('clipboard saved');
+      $location.search('storageURI', $scope.storageURI);
+    }).
+    error(function(data, status, headers) {
+      $scope.notify('could not save clipboard', 'error');
+    });
+```
+
+
 More coming soon ...
 
 ## See Also
