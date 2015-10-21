@@ -6,7 +6,7 @@ In this tutorial we will cover how to load and save data to a Personal Online Da
 
 *What you will learn*
 
-* How to set up rdflib.js to work with the web of data
+* How to set up [rdflib.js](https://github.com/linkeddata/rdflib.js/) to work with the web of data
 * How to read data from a Pod
 * How to write data to a Pod
 * How to change the location of the URL you are using
