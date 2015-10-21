@@ -47,17 +47,16 @@ First, we will look at how to use decentralized login using JavaScript.  Using [
 
   ```
   
-The system used is a delegated authentication.  This is because a server is required in order to verify who a user is.
-
-A HEAD request to any WebID enabled server will return a User: header telling who is using the app.  That user can then be used to cusomize the app.  In our case we simply set `$scope.user`.
-
-The withCredentials flag is set to true in order to prevent a CORS error.
+The system used is a delegated authentication.  What that means is that we use a server to identify and verify who is using the app.  This is because a server is required in order to verify who a user is.  
 
 The AUTHENDPOINT in our example is set to : https://databox.me/
 
 ```javascript
     AUTHENDPOINT = "https://databox.me/";
 ```
+The withCredentials flag is set to true in order to prevent a CORS error.
+
+A HEAD request to any WebID enabled server will return a User: header telling who is using the app.  That user can then be used to cusomize the app.  In our case we simply set `$scope.user`.
 
 The **logout** code simply unsets the `$scope.loggedIn` variable:
 
