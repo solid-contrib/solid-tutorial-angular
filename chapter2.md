@@ -51,7 +51,7 @@ For convenience some common namespaces are set up so that vocabs can be called c
   var TMP   = $rdf.Namespace("urn:tmp:");
 ```
 
-To see this in action we use the `nowOrWhenFetched` function of the fetcher to get data from  Pod.
+Next, we want to pull in the data, so we use the `nowOrWhenFetched` function of the fetcher to get data from  Pod.
 
 Before we can do this we must determine the location from the query string or from a default as follows, using the angularJS search function:
 
