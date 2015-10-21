@@ -54,7 +54,7 @@ Now we can fetch the data:
 
 ```javascript
     f.nowOrWhenFetched(storageURI, undefined, function(ok, body) {
-      var clipboard = g.any($rdf.sym(storageURI + '#this'), URN('clipboard'));
+      var clipboard = g.any($rdf.sym(storageURI + '#this'), TMP('clipboard'));
       $scope.clipboard = clipboard;
       $scope.storageURI = storageURI;
     });
