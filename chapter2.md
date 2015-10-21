@@ -113,8 +113,8 @@ The line
 
 Changes the query string to the storage URI so that the clipboard can be bookmarked.
 
+The default location for storing the clip in this demo is public `https://clip.databox.me/Public/.clip/Public/test` but in practice you would want to store data in a private workspace under your storage root.  See Appendix B for more details.  
 
-More coming soon ...
 
 ## See Also
 
