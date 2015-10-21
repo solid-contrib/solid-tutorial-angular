@@ -5,4 +5,5 @@
 * [Chapter 2 - Clipboard App](chapter2.md)
 * [Appendix A - SoLiD Spec](solid_spec.md)
 * [Appendix B - SoLiD Discovery](discovery.md)
+* Chapter 3 - Video App
 
