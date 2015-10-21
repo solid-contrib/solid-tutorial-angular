@@ -18,7 +18,7 @@ This app builds on the previous hello world app, which enables login and logout 
 
 The first thing that we will do is set up [rdflib.js](https://github.com/linkeddata/rdflib.js/).  It is sourced in to index.html
 
-    ```<script src="vendor/rdflib.min.js"></script>```
+    ```html <script src="vendor/rdflib.min.js"></script>```
     
 
 More coming soon ...
