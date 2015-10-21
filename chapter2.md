@@ -113,7 +113,9 @@ The line
     $location.search('storageURI', $scope.storageURI);
 ```
 
-Changes the query string to the storage URI so that the clipboard can be bookmarked.
+Changes the query string to the storage URI so that the clipboard can be bookmarked.  Putting this all together it is possible to see a demo as follows:
+
+  [Live Demo](http://melvincarvalho.github.io/clip/)
 
 The default location for storing the clip in this demo is public `https://clip.databox.me/Public/.clip/Public/test` but in practice you would want to store data in a private workspace under your storage root.  See Appendix B for more details.
 
