@@ -33,7 +33,7 @@ The variable `g` will contain everything that is fetched using the fetcher, and 
 
 To see this in action we use the `nowOrWhenFetched` function of the fetcher to get data from  Pod.
 
-Before we can do this we must determine the location from the query string or from a default as follows:
+Before we can do this we must determine the location from the query string or from a default as follows, using the angularJS search function:
 
 ```javascript
     var storageURI = 'https://clip.databox.me/Public/.clip/Public/test';
