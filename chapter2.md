@@ -31,6 +31,26 @@ After sourcing in the library, the first thing to do is to **initialize** a know
 
 The variable `g` will contain everything that is fetched using the fetcher, and also meta data about the documents that have been fetched.  The variable `f` can be used to fetch documents.
 
+For convenience some common namespaces are set up so that vocabs can be called conveniently with a shorthand using `$rdf.Namespace`
+
+```javascript
+  var CHAT  = $rdf.Namespace("https://ns.rww.io/chat#");
+  var CURR  = $rdf.Namespace("https://w3id.org/cc#");
+  var DCT   = $rdf.Namespace("http://purl.org/dc/terms/");
+  var FACE  = $rdf.Namespace("https://graph.facebook.com/schema/~/");
+  var FOAF  = $rdf.Namespace("http://xmlns.com/foaf/0.1/");
+  var LIKE  = $rdf.Namespace("http://ontologi.es/like#");
+  var LDP   = $rdf.Namespace("http://www.w3.org/ns/ldp#");
+  var MBLOG = $rdf.Namespace("http://www.w3.org/ns/mblog#");
+  var OWL   = $rdf.Namespace("http://www.w3.org/2002/07/owl#");
+  var PIM   = $rdf.Namespace("http://www.w3.org/ns/pim/space#");
+  var RDF   = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+  var RDFS  = $rdf.Namespace("http://www.w3.org/2000/01/rdf-schema#");
+  var SIOC  = $rdf.Namespace("http://rdfs.org/sioc/ns#");
+  var SOLID = $rdf.Namespace("http://www.w3.org/ns/solid/app#");
+  var TMP   = $rdf.Namespace("urn:tmp:");
+```
+
 To see this in action we use the `nowOrWhenFetched` function of the fetcher to get data from  Pod.
 
 Before we can do this we must determine the location from the query string or from a default as follows, using the angularJS search function:
