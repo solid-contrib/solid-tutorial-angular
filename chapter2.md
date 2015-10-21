@@ -42,6 +42,14 @@ Before we can do this we must determine the location from the query string or fr
     }
 ```
 
+For this app, the document is assumed to contain data of the form
+
+```turtle
+    <#this> <urn:tmp:clipboard> "data" .
+```
+
+The data above uses the turtle notation.
+
 Now we can fetch the data:
 
 ```javascript
@@ -52,11 +60,6 @@ Now we can fetch the data:
     });
 ```
 
-For this app, the document is assumed to contain data of the form
-
-```turtle
-    <#this> <urn:tmp:clipboard> "data" .
-```
 
 More coming soon ...
 
