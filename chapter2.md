@@ -18,7 +18,16 @@ This app builds on the previous hello world app, which enables login and logout 
 
 The first thing that we will do is set up [rdflib.js](https://github.com/linkeddata/rdflib.js/).  It is sourced in to index.html
 
-    ```html <script src="vendor/rdflib.min.js"></script>```
+    ``` 
+    <script src="vendor/rdflib.min.js"></script>
+    ```
+    
+After sourcing in the library, the first thing to do is set up a knowledge base graph, and a fetcher.  This is done using the `$rdf` global variable
+
+    ```javascript
+    g = $rdf.graph();
+    f = $rdf.fetcher(g);
+    ```
     
 
 More coming soon ...
