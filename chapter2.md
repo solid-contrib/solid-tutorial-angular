@@ -22,13 +22,26 @@ The first thing that we will do is set up [rdflib.js](https://github.com/linkedd
     <script src="vendor/rdflib.min.js"></script>
 ```
     
-After sourcing in the library, the first thing to do is set up a knowledge base graph, and a fetcher.  This is done using the `$rdf` global variable
+After sourcing in the library, the first thing to do is to **initialize** a knowledge base graph, and a fetcher.  This is done using the `$rdf` global variables.
 
 ```javascript
     g = $rdf.graph();
     f = $rdf.fetcher(g);
 ```
-    
+
+The variable `g` will contain everything that is fetched using the fetcher, and also meta data about the documents that have been fetched.  The variable `f` can be used to fetch documents.
+
+To see this in action we use the `nowOrWhenFetched` function of the fetcher to get data from  Pod.
+
+Before we can do this we must determine the location from the query string or from a default as follows:
+
+```javascript
+    var storageURI = 'https://clip.databox.me/Public/.clip/Public/test';
+    if ($location.search().storageURI) {
+      storageURI = $location.search().storageURI;
+    }
+```
+
 
 More coming soon ...
 
