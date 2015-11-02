@@ -38,8 +38,9 @@ In this case the content is an embeddable video URL (as a string).  This is fetc
 The set video function simply embeds the video file in an iframe element after determining the width and height (for mobile optimization).
 
 ```JavaScript
-    var iframe = '<iframe width="' + width + '" height="' + height + '" src="'+uri+'"></iframe>';
-    console.log(iframe);
+    var height = Math.round(( width * 3 ) / 4);
+    var iframe = '<iframe width="' + width + '" height="' + height +
+                 '" src="'+uri+'"></iframe>';
     $('#video').empty().append(iframe);
 ```
 
