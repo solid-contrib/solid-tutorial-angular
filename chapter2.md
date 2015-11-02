@@ -115,7 +115,7 @@ The line
     $location.search('storageURI', $scope.storageURI);
 ```
 
-Changes the query string to the storage URI so that the clipboard can be bookmarked, or shared.  It is important on the web that URIs reflect the state of a given app. 
+Changes the query string to the storage URI so that the clipboard can be bookmarked, or shared.  It is important on the web that URIs reflect the state of a given app.  Astute observers will also note that the address bar now becomes an input form where changing the query string can change the content.
 
 Putting this all together it should be possible to see a demo as follows:
 
