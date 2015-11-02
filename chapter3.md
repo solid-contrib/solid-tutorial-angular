@@ -73,6 +73,19 @@ While previous apps have been a single canvas, this app adds a few more features
     <!-- end menu -->
 ```
 
+The code snippet above shows the addition of a menu toolbar.  In this case some of the lumx effects are used, including dropdown, ripple, toggle and menu.  A dropdown is added that triggers an about model using the `openDialog('about')` function.  The code for this brings to the top the "about" div and allows it to close on escape.
+
+```JavaScript
+  $scope.openDialog = function(elem) {
+    LxDialogService.open(elem);
+    $(document).keyup(function(e) {
+      if (e.keyCode===27) {
+        LxDialogService.close(elem);
+      }
+    });
+  };
+```
+
 More Coming soon ...
 
 ## See Also
