@@ -15,6 +15,8 @@ In this tutorial we will cover how to load and save data video links to a Person
 
 ## The App
 
+The video app follows the model of the previous clipboard app but adds a few more features to the UI and allows embedding of a video element via an iframe.
+
 More Coming soon ...
 
 ## See Also
