@@ -35,7 +35,7 @@ The predicate here is an HTTP URI that uses the [SIOC](http://rdfs.org/sioc/spec
   };
 ```
 
-The set video function simply embeds the video file in an iframe element after determining the width and height (for mobile optimization).
+The setVideo function simply embeds the video file in an iframe element after determining the width and height (for mobile optimization).
 
 ```JavaScript
     var height = Math.round(( width * 3 ) / 4);
