@@ -86,6 +86,26 @@ The code snippet above shows the addition of a menu toolbar.  In this case some 
   };
 ```
 
+The sidebar is created using flexbox and is shown only if the is enough space on the screen.
+
+```html
+      <!-- sidebar -->
+      <div flex-item="2" flex-item-order="1">
+        <div class="sidebar sidebar--shown" ng-class="{'sidebar--shown': isVisible()}">
+          <div class="sidebar-menu">
+            <ul>
+              <li><a class="sidebar-menu__link">Sidebar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end sidebar -->
+```
+
+Further description of the UI is out of scope of this tutorial, but there each element is well documented elsewhere.
+
+
+
 More Coming soon ...
 
 ## See Also
