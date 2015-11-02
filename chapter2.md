@@ -121,7 +121,7 @@ Putting this all together it should be possible to see a demo as follows:
 
   [Live Demo](http://melvincarvalho.github.io/clip/)
 
-The default location for storing the clip in this demo is public `https://clip.databox.me/Public/.clip/Public/test` but in practice you would want to store data in a private workspace under your storage root.  See Appendix B for more details.
+The default location for storing the clip in this demo is public `https://clip.databox.me/Public/.clip/Public/test` but in practice you would want to store data in a private workspace under your storage root.  Automatically finding endpoints will be covered in future.  See Appendix B for more details.
 
 A typical location could be 
 
