@@ -21,7 +21,7 @@ The video app follows the model of the previous clipboard app but adds a few mor
 The data format used for storing a video in a file here is:
 
 ```
-    <#this> <<http://rdfs.org/sioc/ns#content>> "content" .
+    <#this> <http://rdfs.org/sioc/ns#content> "content" .
 ```
 
 In this case the content is an embeddable video URL (as a string).  
