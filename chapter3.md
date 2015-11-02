@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this tutorial we will cover how to load and save data to a Personal Online Datastore (Pod).  The app is a simple web clipboard that allows you to save data to a store and then recover it later.
+In this tutorial we will cover how to load and save data video links to a Personal Online Datastore (Pod) and display it on screen.  A slightly more sophisticated UI will also be used.
 
 *What you will learn*
 
