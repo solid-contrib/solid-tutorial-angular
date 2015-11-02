@@ -7,5 +7,5 @@
 * [Chapter 4 - Solid Chess](chapter4.md)
 * [Chapter 5 - Solid Explorer](chapter5.md)
 * [Appendix A - Solid Spec](solid_spec.md)
-* [Appendix B - SoLiD Discovery](discovery.md)
+* [Appendix B - Solid Discovery](discovery.md)
 
