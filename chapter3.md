@@ -15,7 +15,7 @@ In this tutorial we will cover how to load and save data video links to a Person
 
 ## The App
 
-Coming soon ...
+More Coming soon ...
 
 ## See Also
 
