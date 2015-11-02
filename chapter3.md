@@ -8,11 +8,9 @@ In this tutorial we will cover how to load and save data video links to a Person
 
 * How to read and write video URLs to a Pod
 * How to add a sidebar
-* How to change the location of the URL you are using
-* How to change query string to allow bookmarking
-* How to use the `#this` pattern
-* How to use the `urn:tmp:` pattern
-
+* How to add a menu bar
+* How to display modal dialogs
+* How to embed video in a page
 
 
 ## The App
