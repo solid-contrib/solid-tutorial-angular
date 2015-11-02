@@ -15,7 +15,7 @@ In this tutorial we will cover how to build a simple client side hello world app
 
 [Solid](https://github.com/solid) apps typically run client side and do not require a server, except to identify a user, or store data.
 
-This app written using on [AngularJS](https://angularjs.org/).  Setup and scaffolding of the app is out of scope for this book.  But there are many [tutorials](https://docs.angularjs.org/misc/started) online that show you how to get started.  The code is also available for download in the footnotes.
+This app written using on [AngularJS](https://angularjs.org/).  Setup and scaffolding of the app is out of scope for this tutorial.  But there are many [guides](https://docs.angularjs.org/misc/started) online that show you how to get started.  The code is also available for download in the footnotes.
 
 Hello world is a simple app that allows decentralized login and logout using the [WebID](http://webid.info/) Identity system.  The remote server will perform the authentication, typically using TLS, but any authentication is allowed provided that the [User](https://www.w3.org/community/rww/wiki/User_Header) header is sent back.
 
