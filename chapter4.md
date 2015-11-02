@@ -6,13 +6,12 @@ In this tutorial we will cover how to play a game of chess in reatlime using Sol
 
 *What you will learn*
 
-* How to read and write video URLs to a Pod
-* How to embed video in a page
-* How to add a sidebar
-* How to add a menu bar
-* How to display modal dialogs
-* How to add a DOAP project file
-
+* How to embed a JavaScript chess widget in a page
+* How to watch for changes
+* How to send moves to a Pod in realtime
+* How to add websocket support
+* How to update the board when a new move is made remotely
+* How to link to a chess engine for hints
 
 ## The App
 
