@@ -1,4 +1,4 @@
-# Chapter 2 - Clipboard App
+# Chapter 2 - Solid Clipboard
 
 ## Introduction
 
