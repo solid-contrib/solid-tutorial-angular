@@ -24,6 +24,8 @@ The data format used for storing a video in a file here is:
     <#this> <<http://rdfs.org/sioc/ns#content>> "content" .
 ```
 
+In this case the content is an embeddable video URL (as a string).  
+
 More Coming soon ...
 
 ## See Also
