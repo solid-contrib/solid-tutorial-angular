@@ -24,7 +24,16 @@ The data format used for storing a video in a file here is:
     <#this> <http://rdfs.org/sioc/ns#content> "content" .
 ```
 
-In this case the content is an embeddable video URL (as a string).  
+In this case the content is an embeddable video URL (as a string).  This is fetched after login using the code:
+
+```JavaScript
+  $scope.fetchVideo = function() {
+    f.nowOrWhenFetched($scope.storageURI, undefined, function(ok, body) {
+      var video = g.any($rdf.sym($scope.storageURI + '#this'), SIOC('content'));
+      $scope.setVideo(video);
+    });
+  };
+```
 
 More Coming soon ...
 
