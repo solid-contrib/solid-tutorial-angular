@@ -17,3 +17,9 @@ In this tutorial we will cover how to play a game of chess in reatlime using Sol
 
 
 Coming soon ...
+
+
+## See Also
+
+* [Source Code](https://github.com/melvincarvalho/chess)
+* [Live Demo](http://melvincarvalho.github.io/chess/)
