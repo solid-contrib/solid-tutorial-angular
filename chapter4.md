@@ -1,3 +1,3 @@
-# Chapter 4 - Chess App
+# Chapter 4 - Solid Chess
 
 Coming soon ...
