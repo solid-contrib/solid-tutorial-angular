@@ -131,6 +131,12 @@ In the file you will find descriptions of the solid app:
     <http://www.w3.org/ns/solid/app#name> "Video" .
 ```
 
+This enables linked data app stores to process your app, copy and install it to new spaces.
+
+When all this is combined you will see a running something like:
+
+  [Live Demo](http://melvincarvalho.github.io/video/)
+
 
 
 More Coming soon ...
