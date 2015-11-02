@@ -6,9 +6,8 @@ In this tutorial we will cover how to load and save data video links to a Person
 
 *What you will learn*
 
-* How to set up [rdflib.js](https://github.com/linkeddata/rdflib.js/) to work with the web of data
-* How to read data from a Pod
-* How to write data to a Pod
+* How to read and write video URLs to a Pod
+* How to add a sidebar
 * How to change the location of the URL you are using
 * How to change query string to allow bookmarking
 * How to use the `#this` pattern
