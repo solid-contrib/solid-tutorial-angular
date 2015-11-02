@@ -7,10 +7,10 @@ In this tutorial we will cover how to load and save data video links to a Person
 *What you will learn*
 
 * How to read and write video URLs to a Pod
+* How to embed video in a page
 * How to add a sidebar
 * How to add a menu bar
 * How to display modal dialogs
-* How to embed video in a page
 * How to add a DOAP project file
 
 
