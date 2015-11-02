@@ -70,7 +70,9 @@ For this app, the document is assumed to contain data of the form
     <#this> <urn:tmp:clipboard> "data" .
 ```
 
-The data above uses the turtle notation.  The `#this` subject is used to distinguish between document and data, and is similar to the 'this' keyword in JavaScript.  Best practice would be to mint an HTTP URI for the predicate, but for ease of demonstration purposes, a temporary URN is used at under the scheme urn:tmp:
+The data above uses the turtle notation.  The `#this` subject is used to distinguish between document and data, and is similar to the 'this' keyword in JavaScript.  
+
+A best practice would be to mint an HTTP URI for the predicate.  But for ease of demonstration purposes, a temporary URN is used at under the scheme urn:tmp:.  It is advisable always to use HTTP URIs, rather than schemes such as urn:, when dealing with linked data, this will be covered in the next tutorial.
 
 Now we can fetch the data:
 
