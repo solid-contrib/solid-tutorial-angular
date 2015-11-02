@@ -35,7 +35,7 @@ The predicate here is an HTTP URI that uses the [SIOC](http://rdfs.org/sioc/spec
   };
 ```
 
-The setVideo function simply embeds the video file in an iframe element after determining the width and height (for mobile optimization).  Note: that because of [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) not all video URLs are embeddable in an iframe.  For example with youtube videos they URL shoudl take the form `/embed/<id>`.
+The setVideo function simply embeds the video file in an iframe element after determining the width and height (for mobile optimization).  Note: that because of [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) not all video URLs are embeddable in an iframe.  For example with youtube videos they URL should take the form `/embed/<id>`.
 
 ```JavaScript
     var height = Math.round(( width * 3 ) / 4);
