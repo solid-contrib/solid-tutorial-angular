@@ -7,5 +7,5 @@
 * [Chapter 4 - Chess App](chapter4.md)
 * [Appendix A - SoLiD Spec](solid_spec.md)
 * [Appendix B - SoLiD Discovery](discovery.md)
-* Chapter 5 - Explorer App
+* [Chapter 5 - Explorer App](chapter5.md)
 
