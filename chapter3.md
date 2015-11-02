@@ -18,6 +18,12 @@ In this tutorial we will cover how to load and save data video links to a Person
 
 The video app follows the model of the previous clipboard app but adds a few more features to the UI and allows embedding of a video element via an iframe.  A demo and the source code can be found in the footnotes.
 
+The data format used for storing a video in a file here is:
+
+```
+    <#this> <<http://rdfs.org/sioc/ns#content>> "content" .
+```
+
 More Coming soon ...
 
 ## See Also
