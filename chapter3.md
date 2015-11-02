@@ -137,9 +137,9 @@ When all this is combined you will see a running something like:
 
   [Live Demo](http://melvincarvalho.github.io/video/)
 
+# Summary
 
-
-More Coming soon ...
+In this tutorial we showed how to embed video in a page.  
 
 ## See Also
 
