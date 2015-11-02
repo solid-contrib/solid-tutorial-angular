@@ -44,7 +44,34 @@ The setVideo function simply embeds the video file in an iframe element after de
     $('#video').empty().append(iframe);
 ```
 
-While previous apps have been a single canvas, this app adds a few more features to allow extensibility.  Flexbox is used to add a header and side bar.  There are many [guides](http://www.paulund.co.uk/css-flexbox) to flexbox online, so it wont be covered here.  
+While previous apps have been a single canvas, this app adds a few more features to allow extensibility.  Flexbox is used to add a header and side bar.  There are many [guides](http://www.paulund.co.uk/css-flexbox) to flexbox online, so it wont be covered here.
+
+```html
+    <!-- menu -->
+    <div class="card">
+      <div class="toolbar">
+        <div class="toolbar__left mr+++">
+          <button class="btn btn--l btn--black btn--icon" lx-ripple>
+            <i class="mdi mdi-menu"></i>
+          </button>
+        </div>
+        <span class="toolbar__label fs-title">Videos</span>
+        <div class="toolbar__right">
+          <lx-dropdown position="right" from-top>
+            <button class="btn btn--l btn--black btn--icon" lx-ripple lx-dropdown-toggle>
+              <i class="mdi mdi-dots-vertical"></i>
+            </button>
+            <lx-dropdown-menu>
+              <ul>
+                <li><a ng-click="openDialog('about')" class="dropdown-link">About</a></li>
+              </ul>
+            </lx-dropdown-menu>
+          </lx-dropdown>
+        </div>
+      </div>
+    </div>
+    <!-- end menu -->
+```
 
 More Coming soon ...
 
