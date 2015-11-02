@@ -44,6 +44,7 @@ The setVideo function simply embeds the video file in an iframe element after de
     $('#video').empty().append(iframe);
 ```
 
+While previous apps have been a single canvas, this app adds a few more features to allow extensibility.  Flexbox is used to add a header and side bar.  There are many [guides](http://www.paulund.co.uk/css-flexbox) to flexbox online, 
 
 More Coming soon ...
 
@@ -52,3 +53,4 @@ More Coming soon ...
 * [Source Code](https://github.com/melvincarvalho/video)
 * [Live Demo](http://melvincarvalho.github.io/video/)
 * [SIOC](http://rdfs.org/sioc/spec/)
+* [How to get started with CSS flexbox](http://www.paulund.co.uk/css-flexbox)
