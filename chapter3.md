@@ -11,6 +11,7 @@ In this tutorial we will cover how to load and save data video links to a Person
 * How to add a menu bar
 * How to display modal dialogs
 * How to embed video in a page
+* How to add a doap file
 
 
 ## The App
