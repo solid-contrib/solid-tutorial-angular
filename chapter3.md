@@ -104,6 +104,33 @@ The sidebar is created using flexbox and is shown only if the is enough space on
 
 Further description of the UI is out of scope of this tutorial, but there each element is well documented elsewhere.
 
+To wrap this app up a [manifest.json](https://developer.chrome.com/extensions/manifest) file is added so that machines are able to tell more information about it.  One particularly useful function in the chrome browser is to use the menu option "Create application shortcuts" which will package webpage as an app, that can be run on desktop or mobile.  
+
+The [DOAP](https://github.com/edumbill/doap/wiki) ("Description of a Project") system is used to add linked data fields to an app.  It is stored in doap.ttl which gh pages conveniently serves using the mime type `text/turtle`.  Autodiscovery is performed using the line
+
+```html
+  <meta href="doap.ttl#this" rel="http://www.w3.org/ns/solid/app#configuration">
+```
+
+In the file you will find descriptions of the solid app:
+
+```html
+<#this>
+    a <http://usefulinc.com/ns/doap#Project>, <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://usefulinc.com/ns/doap#description> "A Video Saving for the Solid platform" ;
+    <http://usefulinc.com/ns/doap#download-page> <https://melvincarvalho.github.io/video/> ;
+    <http://usefulinc.com/ns/doap#homepage> <https://melvincarvalho.github.io/video/> ;
+    <http://usefulinc.com/ns/doap#license> "mit" ;
+    <http://usefulinc.com/ns/doap#maintainer> <http://melvincarvalho.com/#me> ;
+    <http://usefulinc.com/ns/doap#name> "Video" ;
+    <http://usefulinc.com/ns/doap#shortdesc> "A Video App for the Solid platform" ;
+    <http://usefulinc.com/ns/doap#shortname> "Video" ;
+    <http://www.w3.org/ns/solid/app#description> "A Video App for the Solid platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/video/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/video/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Video" .
+```
+
 
 
 More Coming soon ...
@@ -114,3 +141,5 @@ More Coming soon ...
 * [Live Demo](http://melvincarvalho.github.io/video/)
 * [SIOC](http://rdfs.org/sioc/spec/)
 * [How to get started with CSS flexbox](http://www.paulund.co.uk/css-flexbox)
+* [manifest.json](https://developer.chrome.com/extensions/manifest)
+* [DOAP](https://github.com/edumbill/doap/wiki)
