@@ -1,4 +1,4 @@
-# Chapter 3 - Video App
+# Chapter 3 - Solid Video
 
 ## Introduction
 
