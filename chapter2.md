@@ -98,7 +98,7 @@ To save the clipboard we issue a PUT request to the server.
         headers: {
             "Content-Type": "text/turtle"
         },
-        data: '<#this> <urn:tmp:clipboard> """' + _clipboard + '""" .',
+        data: '<#this> <urn:tmp:clipboard> """' + clipboard + '""" .',
     }).
     success(function(data, status, headers) {
       $scope.notify('clipboard saved');
@@ -115,7 +115,9 @@ The line
     $location.search('storageURI', $scope.storageURI);
 ```
 
-Changes the query string to the storage URI so that the clipboard can be bookmarked.  Putting this all together it should be possible to see a demo as follows:
+Changes the query string to the storage URI so that the clipboard can be bookmarked, or shared.  It is important on the web that URIs reflect the state of a given app. 
+
+Putting this all together it should be possible to see a demo as follows:
 
   [Live Demo](http://melvincarvalho.github.io/clip/)
 
