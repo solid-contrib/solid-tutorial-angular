@@ -1,4 +1,4 @@
-# Chapter 1 - Solid Hello
+# Chapter 1 - Solid Hello World
 
 ## Introduction
 
