@@ -17,11 +17,11 @@ So, let's get started!  Please continue to [Chapter 1](https://melvincarvalho.gi
 Gallery
 =======
 
-## Solid Hello World
+## [Solid Hello World](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter1.html)
 
 ![Solid Hello World](solidhello.png)
 
-## Solid Clip
+## [Solid Clip](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter2.html)
 
 ![](clip.png)
 
