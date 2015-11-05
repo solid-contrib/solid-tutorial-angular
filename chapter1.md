@@ -1,6 +1,6 @@
 # Chapter 1 - Solid Hello World
 
-![](solidhello.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/solidhello.png)
 
 ## Introduction
 
