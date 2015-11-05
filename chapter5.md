@@ -1,5 +1,7 @@
 # Chapter 4 - Solid Chess
 
+![](solidchess.png)
+
 ## Introduction
 
 In this tutorial we will cover how to play a game of chess in reatlime using Solid and websocket updates.  A JavaScript board is embedded in the page, updates occur in realtime, and a link is provided to a chess engine to enable hints.
