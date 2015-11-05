@@ -1,5 +1,7 @@
 # Chapter 2 - Solid Clipboard
 
+![](clip.png)
+
 ## Introduction
 
 In this tutorial we will cover how to load and save data to a Personal Online Datastore (Pod).  The app is a simple web clipboard that allows you to save data to a store and then recover it later.
