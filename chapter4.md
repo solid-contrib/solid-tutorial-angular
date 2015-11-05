@@ -22,6 +22,10 @@ In this tutorial we will expand the previous tutorial video into a real world us
 
 The next tutorial is an app that is used to learn vocabulary in a foreign language.  A file is prepared containing the 10,000 most common words in a target language.  The source for word frequency was [wictionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists).  For this demo I have used the czech language with english, but any language pair is possible.
 
+The app will test you randomly on the 1000 most common words.  You can click on the word if you dont know it and a translation will momentarily appear.  If you know the word you can click 'easy' if you dont know the word, click 'again', and if you almost know it, click 'good'.  This is a typical style for [Spaced Repitition](https://en.wikipedia.org/wiki/Spaced_repetition) style memory learning.
+
+The number of words can be cycled to 2000, 3000, 5000 or 10000 as you progress using the changer on the left.  Or an arbitrary number can be tested using the max query string parameter.  Displayed next to the graph is how difficult the word is in terms of frequency.  As you make more trials the number of words increases and your percentage right.  It is possible to reset the number by tapping it.
+
 From a list of words it's possible to paste it into an online translator and get a list of translations.  For this I used google translate.  A simple program can change a 2 column text file into the needed turtle.  I used awk for this
 
 ``` 
