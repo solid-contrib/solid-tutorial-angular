@@ -32,3 +32,6 @@ Gallery
 ## Solid Words
 
 ![](words.png)
+
+## Solid Chess
+
