@@ -1,4 +1,4 @@
-# Chapter 4 - Solid Chess
+# Chapter 4 - Solid Words
 
 ## Introduction
 
