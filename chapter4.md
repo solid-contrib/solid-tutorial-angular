@@ -16,10 +16,13 @@ In this tutorial we will expand the previous tutorial video into a real world us
 
 ## The App
 
-The next tutorial is an app that is used to learn vocabulary in a foreign language.  A file is prepared containing the 10,000 most common words in a target language. 
+The next tutorial is an app that is used to learn vocabulary in a foreign language.  A file is prepared containing the 10,000 most common words in a target language.  The source for word frequency was [wictionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists).
+
+
 
 
 ## See Also
 
 * [Source Code](https://github.com/melvincarvalho/vocab/)
 * [Live Demo](http://melvincarvalho.github.io/vocab/)
+* [wictionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists)
