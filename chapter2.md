@@ -1,6 +1,6 @@
 # Chapter 2 - Solid Clipboard
 
-![](clip.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/clip.png)
 
 ## Introduction
 
