@@ -11,9 +11,16 @@ In general, it is advisable to go through each chapter in order.
 
 The audience for this book is developers familiar with web technology that wish to learn how to use decentralized technology to create the next generation of web applications.
 
-So, let's get started!  Please continue to Chapter 1.
+So, let's get started!  Please continue to **Chapter 1**[](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter1.html).
 
 
 Gallery
 =======
 
+![](solidhello.png)
+
+![](clip.png)
+
+![](video.png)
+
+![](words.png)
