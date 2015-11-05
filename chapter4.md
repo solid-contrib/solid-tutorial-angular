@@ -6,7 +6,7 @@ In this tutorial we will expand the previous tutorial video into a real world us
 
 *What you will learn*
 
-* How to embed a JavaScript chess widget in a page
+* How to structure JavaScript in several parts
 * How to watch for changes
 * How to send moves to a Pod in realtime
 * How to add websocket support
