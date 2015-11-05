@@ -41,7 +41,14 @@ Which should give you output something a bit like this:
 
 One line is in Czech (cs) one in English (en).  This file can be conveniently stored as a .ttl in gh-pages on github so that it can be [loaded](https://github.com/melvincarvalho/data/blob/master/vocab/czech.ttl) into the app dynamically.  This is a great way to host all sorts of linked data content.
 
+A number of things are persisted in localStorage.  The word totals in each bucket (easy, good and again), your user id, and the word lists.  This is used to log you in automatically on future usage of the app
 
+```JavaScript
+    if (localStorage.getItem('user')) {
+      var user = JSON.parse(localStorage.getItem('user'));
+      $scope.loginSuccess(user);
+    }
+```
 
 
 More coming soon ...
