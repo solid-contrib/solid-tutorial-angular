@@ -11,6 +11,7 @@ In this tutorial we will expand the previous tutorial video into a real world us
 * How to use localStorage to save state
 * How to automatically remember a user and login
 * How to prepare language files to be used in vocab training
+* How to add audio to apps
 
 ## The App
 
