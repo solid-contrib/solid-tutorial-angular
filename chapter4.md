@@ -15,7 +15,9 @@ In this tutorial we will expand the previous tutorial video into a real world us
 ## The App
 
 
-Coming soon ...
+
+
+More Coming soon ...
 
 
 ## See Also
