@@ -35,6 +35,7 @@ Which should give you output something a bit like this:
     <#1512> <http://www.w3.org/2000/01/rdf-schema#label> "application"@en .
 ````
 
+One line is in Czech (cs) one in English (en).  This file can be conveniently stored as a .ttl in gh-pages on github so that it can be [loaded](https://github.com/melvincarvalho/data/blob/master/vocab/czech.ttl) into the app dynamically.  This is a great way to host all sorts of linked data content.
 
 More coming soon ...
 
