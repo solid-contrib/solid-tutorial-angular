@@ -25,7 +25,7 @@ The next tutorial is an app that is used to learn vocabulary in a foreign langua
 From a list of words it's possible to paste it into an online translator and get a list of translations.  For this I used google translate.  A simple program can change a 2 column text file into the needed turtle.  I used awk for this
 
 ``` 
-awk -F $'\t' ' { print "<#" ++i "> <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $2 "\"" "@en .\n" "<#" i ">  <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $1 "\"" "@cz ." }'
+awk -F $'\t' ' { print "<#" ++i "> <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $2 "\"" "@en .\n" "<#" i ">  <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $1 "\"" "@cs ." }'
 ```
 
 Which should give you output something a bit like this:
