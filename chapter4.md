@@ -1,6 +1,6 @@
 # Chapter 4 - Solid Words
 
-![](words.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/words.png)
 
 
 ## Introduction
