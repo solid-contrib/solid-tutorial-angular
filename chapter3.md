@@ -141,7 +141,7 @@ When all this is combined you will see a running something like:
 
 # Summary
 
-In this tutorial we showed how to embed video in a page.  Some more advanced UI techniques such as sidebar, menu and dialog boxes were covered.  We also showed how to make your app sematnically rich using maifests, DOAP and auto discovery.  In the next tutorial we will show how to create realtime updates using websockets.
+In this tutorial we showed how to embed video in a page.  Some more advanced UI techniques such as sidebar, menu and dialog boxes were covered.  We also showed how to make your app sematnically rich using maifests, DOAP and auto discovery.  In the next tutorial we will expand on these patterns and create a more complex game type app.
 
 ## See Also
 
