@@ -15,7 +15,7 @@ In this tutorial we will expand the previous tutorial video into a real world us
 * How to automatically remember a user and login
 * How to prepare language files to be used in vocab training
 * How to add audio to apps
-* How to generate statistics
+* How to add an app to your desktop
 
 ## The App
 
