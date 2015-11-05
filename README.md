@@ -17,24 +17,24 @@ Gallery
 
 ## [Solid Hello World](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter1.html)
 
-![Solid Hello World](solidhello.png)
+![Solid Hello World](https://melvincarvalho.gitbooks.io/solid-tutorials/content/solidhello.png)
 
 ## [Solid Clip](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter2.html)
 
-![](clip.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/clip.png)
 
 ## [Solid Video](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter3.html)
 
-![](video.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/video.png)
 
 ## [Solid Words](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter4.html)
 
-![](words.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/words.png)
 
 ## [Solid Chess](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter5.html)
 
-![](solidchess.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/solidchess.png)
 
 ## [Solid Explorer](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter6.html)
 
-![](solidexplorer.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/solidexplorer.png)
