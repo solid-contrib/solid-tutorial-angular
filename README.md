@@ -3,11 +3,9 @@
 Solid Tutorials
 =======
 
-This book is a set of tutorials for the [Solid](https://github.com/solid) platform.
+This book is a set of tutorials for building apps on the [Solid](https://github.com/solid) platform.
 
-Each chapter will contain a tutorial showing how to build certain types of apps.
-
-In general, it is advisable to go through each chapter in order.
+This book is **not** an introductory guide to the Solid core platform, more designed as excercises to demonstrate what is possible.  Each chapter will contain a tutorial showing how to build certain types of apps.  In general, it is advisable to go through each chapter in order.
 
 The audience for this book is developers familiar with web technology that wish to learn how to use decentralized technology to create the next generation of web applications.
 
