@@ -19,7 +19,7 @@ Gallery
 
 ![Solid Hello World](solidhello.png)
 
-Solid Hello World
+**Solid Hello World**
 
 ![](clip.png)
 
