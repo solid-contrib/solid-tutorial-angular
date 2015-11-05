@@ -35,3 +35,4 @@ Gallery
 
 ## Solid Chess
 
+![](solidchess.png)
