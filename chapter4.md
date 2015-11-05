@@ -28,7 +28,13 @@ From a list of words it's possible to paste it into an online translator and get
 awk -F $'\t' ' { print "<#" ++i "> <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $2 "\"" "@en .\n" "<#" i ">  <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $1 "\"" "@cz ." }'
 ```
 
-Which shoul
+Which should give you output something a bit like this:
+
+```html
+    <#1512> <http://www.w3.org/2000/01/rdf-schema#label> "žádost"@cs .
+    <#1512> <http://www.w3.org/2000/01/rdf-schema#label> "application"@en .
+````
+
 
 More coming soon ...
 
