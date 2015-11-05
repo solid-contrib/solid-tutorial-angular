@@ -17,7 +17,7 @@ In this tutorial we will expand the previous tutorial video into a real world us
 
 ## The App
 
-The next tutorial is an app that is used 
+The next tutorial is an app that is used to learn vocabulary in a foreign language.
 
 
 ## See Also
