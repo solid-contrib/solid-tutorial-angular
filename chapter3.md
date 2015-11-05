@@ -1,6 +1,6 @@
 # Chapter 3 - Solid Video
 
-![](video.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/video.png)
 
 ## Introduction
 
