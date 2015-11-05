@@ -19,6 +19,8 @@ Gallery
 
 ![Solid Hello World](solidhello.png)
 
+Solid Hello World
+
 ![](clip.png)
 
 ![](video.png)
