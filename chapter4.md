@@ -7,11 +7,10 @@ In this tutorial we will expand the previous tutorial video into a real world us
 *What you will learn*
 
 * How to structure JavaScript in several parts
-* How to watch for changes
-* How to send moves to a Pod in realtime
-* How to add websocket support
-* How to update the board when a new move is made remotely
-* How to link to a chess engine for hints
+* How to set up a turtle data file on github
+* How to use localStorage to save state
+* How to prepare language files to be used in vocab training
+* How to cache and uncache files
 
 ## The App
 
@@ -21,5 +20,5 @@ Coming soon ...
 
 ## See Also
 
-* [Source Code](https://github.com/melvincarvalho/chess)
-* [Live Demo](http://melvincarvalho.github.io/chess/)
+* [Source Code](https://github.com/melvincarvalho/vocab/)
+* [Live Demo](http://melvincarvalho.github.io/vocab/)
