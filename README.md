@@ -36,3 +36,7 @@ Gallery
 ## Solid Chess
 
 ![](solidchess.png)
+
+## Solid Explorer
+
+![](solidexplorer.png)
