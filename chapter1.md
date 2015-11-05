@@ -1,5 +1,7 @@
 # Chapter 1 - Solid Hello World
 
+![](solidhello.png)
+
 ## Introduction
 
 In this tutorial we will cover how to build a simple client side hello world app using the [Solid](https://github.com/solid) framework.  
