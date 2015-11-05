@@ -1,4 +1,4 @@
-# Chapter 4 - Solid Chess
+# Chapter 5 - Solid Chess
 
 ![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/solidchess.png)
 
