@@ -67,4 +67,5 @@ More coming soon ...
 * [Source Code](https://github.com/melvincarvalho/vocab/)
 * [Live Demo](http://melvincarvalho.github.io/vocab/)
 * [wictionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists)
+* [Spaced Repitition](https://en.wikipedia.org/wiki/Spaced_repetition)
 * [ngAudio](https://danielstern.github.io/ngAudio/#/)
