@@ -12,7 +12,7 @@ The audience for this book is developers familiar with web technology that wish 
 So, let's get started!  Please continue to [Chapter 1](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter1.html).
 
 
-Gallery
+App Gallery
 =======
 
 ## [Solid Hello World](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter1.html)
