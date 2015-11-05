@@ -1,5 +1,7 @@
 # Chapter 6 - Solid Explorer
 
+![](solidexplorer.png)
+
 ## Introduction
 
 Explorer is a tool for exploring an debugging Solid workspaces.
