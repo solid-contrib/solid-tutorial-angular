@@ -37,6 +37,6 @@ Gallery
 
 ![](solidchess.png)
 
-## Solid Explorer
+## [Solid Explorer](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter6.html)
 
 ![](solidexplorer.png)
