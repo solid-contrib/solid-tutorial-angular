@@ -22,10 +22,11 @@ In this tutorial we will expand the previous tutorial video into a real world us
 
 The next tutorial is an app that is used to learn vocabulary in a foreign language.  A file is prepared containing the 10,000 most common words in a target language.  The source for word frequency was [wictionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists).  For this demo I have used the czech language with english, but any language pair is possible.
 
-From a list of words it's possible to paste it into an online translator and get a list of translations.  For this I used google translate.  A simple program can change a 2 column text file into the needed turtle.  I used awk
+From a list of words it's possible to paste it into an online translator and get a list of translations.  For this I used google translate.  A simple program can change a 2 column text file into the needed turtle.  I used awk for this
 
-```awk awk -F $'\t' ' { print "<#" ++i "> <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $2 "\"" "@en .\n" "<#" i ">  <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $1 "\"" "@cz ." }'
+``` awk -F $'\t' ' { print "<#" ++i "> <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $2 "\"" "@en .\n" "<#" i ">  <http://www.w3.org/2000/01/rdf-schema#label>" " \""  $1 "\"" "@cz ." }'
 ```
+
 
 
 More coming soon ...
