@@ -50,6 +50,8 @@ A number of things are persisted in localStorage.  The word totals in each bucke
     }
 ```
 
+The app is divided into sections for init, auth, fetching, rendering and helper functions.  This will be a typical division of functions for more complex apps.
+
 
 More coming soon ...
 
