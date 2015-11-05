@@ -52,6 +52,12 @@ A number of things are persisted in localStorage.  The word totals in each bucke
 
 The app is divided into sections for init, auth, fetching, rendering and helper functions.  This will be a typical division of functions for more complex apps.
 
+Audio has also bee added to the buttons using the [ngAudio](https://danielstern.github.io/ngAudio/#/) function and a simple tag in the html
+
+````html
+   "ng-audio="audio/button-3.mp3"
+```
+
 
 More coming soon ...
 
@@ -61,3 +67,4 @@ More coming soon ...
 * [Source Code](https://github.com/melvincarvalho/vocab/)
 * [Live Demo](http://melvincarvalho.github.io/vocab/)
 * [wictionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists)
+* [ngAudio](https://danielstern.github.io/ngAudio/#/)
