@@ -1,3 +1,3 @@
-# Chapter 5 - Explorer App
+# Chapter 5 - Solid Chess
 
 Coming soon ...
