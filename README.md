@@ -25,15 +25,15 @@ Gallery
 
 ![](clip.png)
 
-## Solid Video
+## [Solid Video](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter3.html)
 
 ![](video.png)
 
-## Solid Words
+## [Solid Words](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter4.html)
 
 ![](words.png)
 
-## Solid Chess
+## [Solid Chess](https://melvincarvalho.gitbooks.io/solid-tutorials/content/chapter5.html)
 
 ![](solidchess.png)
 
