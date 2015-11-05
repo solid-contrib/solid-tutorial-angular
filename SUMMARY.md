@@ -8,5 +8,5 @@
 * [Chapter 5 - Solid Explorer](chapter5.md)
 * [Appendix A - Solid Spec](solid_spec.md)
 * [Appendix B - Solid Discovery](discovery.md)
-* Chapter 6 - Solid Explorer
+* [Chapter 6 - Solid Explorer](chapter6.md)
 
