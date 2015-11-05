@@ -57,7 +57,11 @@ Audio has also bee added to the buttons using the [ngAudio](https://danielstern.
    "ng-audio="audio/button-3.mp3"
 ```
 
+Putting these pieces together creates a complete and quite useful Solid application.
 
+  [Live Demo](http://melvincarvalho.github.io/vocab/)
+  
+While the english czech language pair was used as default any word file could be used for vocabulary testing.
 
 ## Summary
 
