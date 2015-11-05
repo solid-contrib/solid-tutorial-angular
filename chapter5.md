@@ -16,7 +16,7 @@ In this tutorial we will cover how to play a game of chess in reatlime using Sol
 ## The App
 
 
-Coming soon ...
+More Coming soon ...
 
 
 ## See Also
