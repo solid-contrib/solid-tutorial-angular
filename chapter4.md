@@ -1,5 +1,8 @@
 # Chapter 4 - Solid Words
 
+![](words.png)
+
+
 ## Introduction
 
 In this tutorial we will expand the previous tutorial video into a real world useful app, one for word training and vocabulary.
@@ -19,7 +22,6 @@ In this tutorial we will expand the previous tutorial video into a real world us
 
 The next tutorial is an app that is used to learn vocabulary in a foreign language.  A file is prepared containing the 10,000 most common words in a target language.  The source for word frequency was [wictionary](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists).  For this demo I have used the czech language with english, but any language pair is possible.
 
-![](words.png)
 
 
 
