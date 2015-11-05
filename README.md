@@ -17,7 +17,7 @@ So, let's get started!  Please continue to [Chapter 1](https://melvincarvalho.gi
 Gallery
 =======
 
-![](solidhello.png)
+![Solid Hello World](solidhello.png)
 
 ![](clip.png)
 
