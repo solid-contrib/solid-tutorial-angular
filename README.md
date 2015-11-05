@@ -17,11 +17,15 @@ So, let's get started!  Please continue to [Chapter 1](https://melvincarvalho.gi
 Gallery
 =======
 
+## Solid Hello World
+
 ![Solid Hello World](solidhello.png)
 
-**Solid Hello World**
+## Solid Clip
 
 ![](clip.png)
+
+## Solid Video
 
 ![](video.png)
 
