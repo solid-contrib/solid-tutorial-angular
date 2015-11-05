@@ -1,6 +1,6 @@
 # Chapter 6 - Solid Explorer
 
-![](solidexplorer.png)
+![](https://melvincarvalho.gitbooks.io/solid-tutorials/content/solidexplorer.png)
 
 ## Introduction
 
