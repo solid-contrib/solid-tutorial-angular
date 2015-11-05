@@ -65,7 +65,7 @@ While the english czech language pair was used as default any word file could be
 
 ## Summary
 
-In this app we learnt how to put together a complex set of flows into an app structure that is more robust.  localStorage was used to persist common items, and login was remembered.  Turtle files were created, hosted and pulled in dynamically, and audio was added.
+In this app we learnt how to put together a complex set of flows into an app structure that is more robust.  localStorage was used to persist common items, and login was remembered.  Turtle files were created, hosted and pulled in dynamically, and audio was added.  In the next tutorial we will show how to create realtime updates using websockets.
 
 ## See Also
 
