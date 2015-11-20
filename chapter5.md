@@ -47,7 +47,16 @@ After a socket has been opened we will send a subscription to a resource:
     };
 ```
 
-Additionally some web servers silently time out if not periodically pinged so we send a ping message every 4 minutes.
+Additionally some web servers silently time out if not periodically pinged so we send a ping message every 4 minutes.  If we get a message we check for the 'pub' command and if found we will fire a callback for further processing.
+
+```JavaScript
+    socket.onmessage = function(msg) {
+      var a = msg.data.split(' ');
+      if (a[0] !== 'pub') return;
+      processSocket(a[1]);
+    };
+```
+
 
 
 More Coming soon ...
