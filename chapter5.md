@@ -21,11 +21,11 @@ The main aspect of this tutorial is realtime updates via websockets.  Solid uses
 
 Websockets are built into the browser and are started using the 
 
-    ```
+```JavaScript
     new WebSocket()
-    ``` 
+``` 
     
-syntax.
+syntax.  
 
 
 
