@@ -57,6 +57,8 @@ Additionally some web servers silently time out if not periodically pinged so we
     };
 ```
 
+When we get a message the server will tell us which resource updated.  So we can now drop the cache, notify the user and fetch the resource again.
+
 
 
 More Coming soon ...
