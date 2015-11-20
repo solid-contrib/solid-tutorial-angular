@@ -17,6 +17,7 @@ In this tutorial we will cover how to play a game of chess in reatlime using Sol
 
 ## The App
 
+The main aspect of this tutorial is realtime updates via websockets.
 
 More Coming soon ...
 
