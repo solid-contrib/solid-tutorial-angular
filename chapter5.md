@@ -66,13 +66,6 @@ When we get a message the server will tell us which resource updated.  So we can
     $scope.invalidate(uri);
     $scope.fetchBoard();
     $scope.audio.play();
-
-    Notification.requestPermission(function (permission) {
-      // If the user is okay, let's create a notification
-      if (permission === "granted") {
-        notify = true;
-      }
-    });
   }
 ```
 
