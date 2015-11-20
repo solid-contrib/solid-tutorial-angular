@@ -22,7 +22,7 @@ The main aspect of this tutorial is realtime updates via websockets.  Solid uses
 Websockets are built into the browser and are started using the 
 
 ```JavaScript
-    new WebSocket()
+    new WebSocket(uri)
 ``` 
     
 syntax.  After opening the websocket we then have access to the `onopen`, `onclose`, `onerror` and `onmessage` functions.
