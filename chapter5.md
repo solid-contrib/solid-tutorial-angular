@@ -61,8 +61,6 @@ When we get a message the server will tell us which resource updated.  So we can
 
 ```JavaScript
   function processSocket(uri) {
-    console.log(uri);
-
     $scope.invalidate(uri);
     $scope.fetchBoard();
     $scope.audio.play();
