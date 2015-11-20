@@ -49,7 +49,7 @@ After a socket has been opened we will send a subscription to a resource:
     };
 ```
 
-
+Additionally some web servers silently time out if not periodically pinged so we send a ping message every 4 minutes.
 
 
 More Coming soon ...
