@@ -36,10 +36,19 @@ syntax.  After opening the websocket we then have access to the `onopen`, `onclo
 
 After a socket has been opened we will send a subscription to a resource:
 
-    socket.onerror = function(){
-      console.log('socket error');
-      setTimeout(connect, RECONNECT);
+```JavaScript
+    socket.onopen = function(){
+      console.log(sub);
+      $scope.socket = socket;
+      socket.send('sub ' + sub, socket);
+
+      if (!quiet) {
+        setInterval(function() { socket.send('ping'); }, INTERVAL);
+      }
+
     };
+```
+
 
 
 
