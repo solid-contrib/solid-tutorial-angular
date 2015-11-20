@@ -27,7 +27,19 @@ Websockets are built into the browser and are started using the
     
 syntax.  After opening the websocket we then have access to the `onopen`, `onclose`, `onerror` and `onmessage` functions.  When a socket closes or errors, we would like to restart it so we will call a restart function.
 
+```JavaScript
+    socket.onerror = function(){
+      console.log('socket error');
+      setTimeout(connect, RECONNECT);
+    };
+``` 
 
+After a socket has been opened we will send a subscription to a resource:
+
+    socket.onerror = function(){
+      console.log('socket error');
+      setTimeout(connect, RECONNECT);
+    };
 
 
 
