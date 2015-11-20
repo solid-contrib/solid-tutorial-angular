@@ -25,7 +25,7 @@ Websockets are built into the browser and are started using the
     new WebSocket()
 ``` 
     
-syntax.  
+syntax.  After opening the websocket we then have access to the `onopen`, `onclose`, `onerror` and `onmessage` functions.
 
 
 
