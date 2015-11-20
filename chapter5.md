@@ -17,7 +17,9 @@ In this tutorial we will cover how to play a game of chess in reatlime using Sol
 
 ## The App
 
-The main aspect of this tutorial is realtime updates via websockets.
+The main aspect of this tutorial is realtime updates via websockets.  Solid uses a pub/sub mechanism to allow users to subscribe to a resource, and will send pub updates when one of those resources changes.
+
+
 
 More Coming soon ...
 
