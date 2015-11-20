@@ -41,11 +41,9 @@ After a socket has been opened we will send a subscription to a resource:
       console.log(sub);
       $scope.socket = socket;
       socket.send('sub ' + sub, socket);
-
       if (!quiet) {
         setInterval(function() { socket.send('ping'); }, INTERVAL);
       }
-
     };
 ```
 
