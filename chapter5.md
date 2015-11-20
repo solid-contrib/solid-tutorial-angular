@@ -60,11 +60,20 @@ Additionally some web servers silently time out if not periodically pinged so we
 When we get a message the server will tell us which resource updated.  So we can now drop the cache, notify the user and fetch the resource again.
 
 ```JavaScript
-    socket.onmessage = function(msg) {
-      var a = msg.data.split(' ');
-      if (a[0] !== 'pub') return;
-      processSocket(a[1]);
-    };
+  function processSocket(uri) {
+    console.log(uri);
+
+    $scope.invalidate(uri);
+    $scope.fetchBoard();
+    $scope.audio.play();
+
+    Notification.requestPermission(function (permission) {
+      // If the user is okay, let's create a notification
+      if (permission === "granted") {
+        notify = true;
+      }
+    });
+  }
 ```
 
 
