@@ -12,6 +12,7 @@ In this tutorial we will cover how to play a game of chess in reatlime using Sol
 * How to add websocket support
 * How to send moves to a Pod in realtime
 * How to update the board when a new move is made remotely
+* How to create your own vocabulary
 * How to link to a chess engine for hints
 
 ## The App
