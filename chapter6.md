@@ -10,9 +10,7 @@ Explorer is a tool for exploring an debugging Solid workspaces.
 
 ## The App
 
-
 More Coming soon ...
-
 
 ## See Also
 
