@@ -4,7 +4,9 @@
 
 ## Introduction
 
-In this tutorial we will cover how to load and save data video links to a Personal Online Datastore (Pod) and display it on screen.  A slightly more sophisticated UI will also be used.
+In this tutorial we will cover how to load and save data video links to a
+Personal Online Datastore (Pod) and display it on screen. A slightly more
+sophisticated UI will also be used.
 
 *What you will learn*
 
@@ -15,10 +17,11 @@ In this tutorial we will cover how to load and save data video links to a Person
 * How to display modal dialogs
 * How to add a DOAP project file
 
-
 ## The App
 
-The video app follows the model of the previous clipboard app but adds a few more features to the UI and allows embedding of a video element via an iframe.  A demo and the source code can be found in the footnotes.
+The video app follows the model of the previous clipboard app but adds a few
+more features to the UI and allows embedding of a video element via an iframe. A
+demo and the source code can be found in the footnotes.
 
 The data format used for storing a video in a file here is:
 
@@ -26,7 +29,9 @@ The data format used for storing a video in a file here is:
     <#this> <http://rdfs.org/sioc/ns#content> "content" .
 ```
 
-The predicate here is an HTTP URI that uses the [SIOC](http://rdfs.org/sioc/spec/) vocabulary.  In this case the content is an embeddable video URL (as a string).  This is fetched after login using the code:
+The predicate here is an HTTP URI that uses the
+[SIOC](http://rdfs.org/sioc/spec/) vocabulary. In this case, the content is an
+embeddable video URL (as a string). This is fetched after login using the code:
 
 ```JavaScript
   $scope.fetchVideo = function() {
@@ -37,16 +42,23 @@ The predicate here is an HTTP URI that uses the [SIOC](http://rdfs.org/sioc/spec
   };
 ```
 
-The setVideo function simply embeds the video file in an iframe element after determining the width and height (for mobile optimization).  Note: that because of [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) not all video URLs are embeddable in an iframe.  For example with youtube videos they URL should take the form `/embed/<id>`.
+The `setVideo` function simply embeds the video file in an `iframe` element
+after determining the width and height (for mobile optimization). Note: because
+of [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), not all
+video URLs are embeddable in an `iframe`. For example, when working with Youtube
+videos, their URLs should take the form `/embed/<id>`.
 
-```JavaScript
+```javascript
     var height = Math.round(( width * 3 ) / 4);
     var iframe = '<iframe width="' + width + '" height="' + height +
                  '" src="'+uri+'"></iframe>';
     $('#video').empty().append(iframe);
 ```
 
-While previous apps have been a single canvas, this app adds a few more features to allow extensibility.  Flexbox is used to add a header and side bar.  There are many [guides](http://www.paulund.co.uk/css-flexbox) to flexbox online, so it wont be covered here.
+While previous apps have been single-canvas, this app adds a few more features
+to allow extensibility. The CSS `flexbox` property is used to add a header and
+side bar. There are many [guides](http://www.paulund.co.uk/css-flexbox) on using
+`flexbox` online, so it wont be covered here.
 
 ```html
     <!-- menu -->
@@ -75,9 +87,13 @@ While previous apps have been a single canvas, this app adds a few more features
     <!-- end menu -->
 ```
 
-The code snippet above shows the addition of a menu toolbar.  In this case some of the lumx effects are used, including dropdown, ripple, toggle and menu.  A dropdown is added that triggers an about model using the `openDialog('about')` function.  The code for this brings to the top the "about" div and allows it to close on escape.
+The code snippet above shows the addition of a menu toolbar. In this case some
+of the [Lumx](http://ui.lumapps.com/) effects are used, including dropdown,
+ripple, toggle and menu. A dropdown is added that triggers an about model using
+the `openDialog('about')` function. The code for this brings to the top the
+`about` div and allows it to close on escape.
 
-```JavaScript
+```javascript
   $scope.openDialog = function(elem) {
     LxDialogService.open(elem);
     $(document).keyup(function(e) {
@@ -88,7 +104,8 @@ The code snippet above shows the addition of a menu toolbar.  In this case some 
   };
 ```
 
-The sidebar is created using flexbox and is shown only if the is enough space on the screen.
+The sidebar is created using `flexbox` and is shown only if there is enough
+space on the screen.
 
 ```html
       <!-- sidebar -->
@@ -104,11 +121,20 @@ The sidebar is created using flexbox and is shown only if the is enough space on
       <!-- end sidebar -->
 ```
 
-Further description of the UI is out of scope of this tutorial, but there each element is well documented elsewhere.
+Further description of the UI is out of scope of this tutorial, but each element
+is well documented elsewhere.
 
-To wrap this app up a [manifest.json](https://developer.chrome.com/extensions/manifest) file is added so that machines are able to tell more information about it.  One particularly useful function in the chrome browser is to use the menu option "Create application shortcuts" which will package webpage as an app, that can be run on desktop or mobile.  
+To wrap up this app, a
+[manifest.json](https://developer.chrome.com/extensions/manifest) file is added,
+to provide machine-readable information about this page. For example, one
+particularly useful function in the Chrome browser is to use the menu option
+"Create application shortcuts" which will package a webpage as an app that can
+be run on desktop or mobile.
 
-The [DOAP](https://github.com/edumbill/doap/wiki) ("Description of a Project") system is used to add linked data fields to an app.  It is stored in doap.ttl which gh pages conveniently serves using the mime type `text/turtle`.  Autodiscovery is performed using the line
+The [DOAP (Description of a Project)](https://github.com/edumbill/doap/wiki)
+system is used to add linked data fields to an app. It is stored in `doap.ttl`
+which Github Pages conveniently serves using the mime type `text/turtle`.
+Auto-discovery is performed using the line
 
 ```html
   <meta href="doap.ttl#this" rel="http://www.w3.org/ns/solid/app#configuration">
@@ -133,15 +159,20 @@ In the file you will find descriptions of the solid app:
     <http://www.w3.org/ns/solid/app#name> "Video" .
 ```
 
-This enables linked data app stores to process your app, copy and install it to new spaces.
+This enables Linked Data app stores to process your app, copy and install it to
+new spaces.
 
 When all this is combined you will see a running something like:
 
-  [Live Demo](http://melvincarvalho.github.io/video/)
+[Solid Video Live Demo](http://melvincarvalho.github.io/video/)
 
 # Summary
 
-In this tutorial we showed how to embed video in a page.  Some more advanced UI techniques such as sidebar, menu and dialog boxes were covered.  We also showed how to make your app sematnically rich using maifests, DOAP and auto discovery.  In the next tutorial we will expand on these patterns and create a more complex game type app.
+In this tutorial we showed how to embed video in a page. Some more advanced UI
+techniques such as sidebar, menu and dialog boxes were covered. We also showed
+how to make your app semantically rich using manifests, DOAP and auto discovery.
+In the next tutorial we will expand on these patterns and create a more complex
+game type app.
 
 ## See Also
 
