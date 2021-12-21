@@ -12,7 +12,7 @@ using the [Solid](https://github.com/solid-spec/) framework.
 * How to create your first client side [Solid](https://github.com/solid) app
 * How to use decentralized login and logout
 * How to delegate HEAD requests to identify using the [User](https://www.w3.org/community/rww/wiki/User_Header) header
-* How to use notifcations using [Lumx](http://ui.lumapps.com/) and [AngularJS](https://angularjs.org/)
+* How to use notifications using [Lumx](http://ui.lumapps.com/) and [AngularJS](https://angularjs.org/)
 
 ## The App
 
